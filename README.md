@@ -5,7 +5,7 @@
 #### Docente:
 - **Quintanilla Portugal Roxana Lisette** - [Concytec](http://directorio.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=40930).
 
-### **Construido con: 
+### **Construido con:**
 * MYSQL
 * Node.js
 * Express
