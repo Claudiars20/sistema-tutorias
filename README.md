@@ -11,7 +11,8 @@
 * Express
 * React.js
 ### **Para inicializar el proyecto:**
-`npm start`
+* Front-end: `npm start`
+* Back-end: `node server.js`
 
 ## Autores ✒️
 * **Diego Alonso Dorado Torres - 170594** - [DiegoAlonso001](https://github.com/DiegoAlonso001)
