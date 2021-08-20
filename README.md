@@ -7,16 +7,26 @@
 ---
 
 ## Construido con 🛠️
-* [mySQL] - Base de datos
+* mySQL - Base de datos
 * [Node.js](https://nodejs.org/es/docs/) 
 * [Express.js](https://expressjs.com/es/) 
 * [React.js](https://es.reactjs.org/docs/getting-started.html) 
 * [Material UI](https://material-ui.com)
 
-### **Para inicializar el proyecto:**
+### Para inicializar el proyecto
 * Front-end: `npm start`
 * Back-end - API : `node server.js`
 
+### Distribución de Tareas 📈
+| Área | Encargado |
+| ------------- | ------------- |
+| Backend - Docentes  | Mileydi |
+| Backend - Alumnos | Angie |
+| Backend - Login | Alexander, Pool |
+| Frontend - Docentes  | Mileydi |
+| Frontend - Alumnos | Jeremyk |
+| Frontend - Login | Carlos |
+| Base de Datos | Diego |
 
 ## Autores ✒️
 * **Diego Alonso Dorado Torres - 170594** - [DiegoAlonso001](https://github.com/DiegoAlonso001)
