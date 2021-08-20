@@ -28,6 +28,7 @@
 | Frontend - Login | Carlos |
 | Base de Datos | Diego |
 
+---
 ## Autores ✒️
 * **Diego Alonso Dorado Torres - 170594** - [DiegoAlonso001](https://github.com/DiegoAlonso001)
 * **Angie Escobedo Mescco - 174442** - [AngieEM](https://github.com/AnnieLoli)
