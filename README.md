@@ -8,9 +8,9 @@
 
 ## Construido con 🛠️
 * [mySQL] - Base de datos
-* [Node.js]() 
+* [Node.js](https://nodejs.org/es/docs/) 
 * [Express.js]() 
-* [React.js]() 
+* [React.js](https://es.reactjs.org/docs/getting-started.html) 
 * [Material UI]()
 
 ### **Para inicializar el proyecto:**
