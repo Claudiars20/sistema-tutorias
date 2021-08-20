@@ -4,15 +4,19 @@
 - **Ing. de Software I - Grupo 5**
 #### Docente:
 - **Quintanilla Portugal Roxana Lisette** - [Concytec](http://directorio.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=40930).
+---
 
-### **Construido con:**
-* MYSQL
-* Node.js
-* Express
-* React.js
+## Construido con 🛠️
+* [mySQL] - Base de datos
+* [Node.js]() 
+* [Express.js]() 
+* [React.js]() 
+* [Material UI]()
+
 ### **Para inicializar el proyecto:**
 * Front-end: `npm start`
-* Back-end: `node server.js`
+* Back-end - API : `node server.js`
+
 
 ## Autores ✒️
 * **Diego Alonso Dorado Torres - 170594** - [DiegoAlonso001](https://github.com/DiegoAlonso001)
