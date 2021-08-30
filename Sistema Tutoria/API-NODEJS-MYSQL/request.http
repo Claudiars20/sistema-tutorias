@@ -1,0 +1,16 @@
+###
+GET http://localhost:8000/api HTTP/1.1
+
+###
+POST http://localhost:8000/api HTTP/1.1
+Content-Type: application/json
+
+{
+    "IdFichaTutoria": "F00002", 
+    "IdAsignacion": "A00002",   
+    "CelularReferenciaTutorando": "941475175",
+    "PersonaReferenciaTutorando": "Dennis",
+}
+
+###
+DELETE http://localhost:8000/api/F00001 HTTP/1.1
