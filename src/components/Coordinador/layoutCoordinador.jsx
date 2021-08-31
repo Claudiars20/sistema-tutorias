@@ -7,16 +7,7 @@ function Layout({ setLocale }) {
   const [image, setImage] = useState(true);
   const [toggled, setToggled] = useState(false);
 
-  const handleCollapsedChange = (checked) => {
-    setCollapsed(checked);
-  };
 
-  const handleRtlChange = (checked) => {
-    setRtl(checked);
-  };
-  const handleImageChange = (checked) => {
-    setImage(checked);
-  };
 
   const handleToggleSidebar = (value) => {
     setToggled(value);

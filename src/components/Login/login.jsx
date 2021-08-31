@@ -11,6 +11,11 @@ import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
+import GoogleButton from 'react-google-button';
+import { useDispatch } from 'react-redux';
+import { GoogleLogin,validar } from './actions/Auth';
+import {  useHistory } from 'react-router-dom';
+
 
 function Copyright() {
   return (
@@ -47,6 +52,35 @@ const useStyles = makeStyles((theme) => ({
 
 export default function Login() {
   const classes = useStyles();
+
+ const dispatch = useDispatch();
+ var validar2=validar();
+ const history=useHistory();
+
+const HandleLogin=()=>{
+  GoogleLogin();
+  console.log(validar2)
+  if(validar2==true){
+   
+    alert("PUEDE ENTRAR ");
+    history.push("/coordinador");
+    console.log(history);
+
+   
+  }
+  else{
+    alert("INGRESE UN CORREO CORRECTO")
+    console.log(history);
+    history.push("/login");  
+  }
+}
+ 
+
+
+
+
+
+
 
   return (
     <Container component="main" maxWidth="xs">
@@ -94,6 +128,9 @@ export default function Login() {
           >
             Sign In
           </Button>
+          <hr/>
+          <GoogleButton  type="dark" style={{width:'100%'}} onClick={HandleLogin}/>
+          <hr/>
           <Grid container>
             <Grid item xs>
               <Link href="#" variant="body2">
