@@ -62,7 +62,7 @@ const HandleLogin=()=>{
   console.log(validar2)
   if(validar2==true){
    
-    alert("PUEDE ENTRAR ");
+    alert("PUEDE ENTRAR asdsasd");
     history.push("/coordinador");
     console.log(history);
 
